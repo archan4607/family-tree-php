@@ -1,0 +1,51 @@
+
+            //function syntax is fun(database connection, user2id, array which want to check)
+            // function checkifuser2found($u2, $multi_arr1){
+            //     global $con;
+            //     //check if user 2 id is found or not
+            //     $res=array();
+            //     $n=10;
+            //     for($i=0; $i<7; $i++){
+            //         for($j=0; $j<$n; $j++){
+            //             // echo "*";
+            //             if($multi_arr1[$i][$j]==$u2){
+            //                 // echo "value foud ".$i." ".$j;
+            //                 $res[]=$i;
+            //             }
+            //             else{
+            //                 echo "data not found";
+            //             }
+            //         }
+            //         echo "<br>";
+            //     }
+            //     echo $res;
+            //     print_r($res);
+            //     for($i=0; $i<=$res[$i]; $i++){
+            //         if($res[$i]==0){
+            //             echo "Father";
+            //             fatherofuser($u2);
+            //         }
+            //         if($res[$i]==1){
+            //             echo "Mother";
+            //         }
+            //         if($res[$i]==2){
+            //             echo "Son";
+            //         }
+            //         if($res[$i]==3){
+            //             echo "Daughter";
+            //         }
+            //         if($res[$i]==4){
+            //             echo "Brother";
+            //         }
+            //         if($res[$i]==5){
+            //             echo "Sister";
+            //         }
+            //         if($res[$i]==6){
+            //             echo "Husband";
+            //         }
+            //         if($res[$i]==7){
+            //             echo "Wife";
+            //         }
+            //     }
+            // }
+            // echo checkifuser2found($u2, $multi_arr1);

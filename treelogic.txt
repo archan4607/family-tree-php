@@ -1,0 +1,79 @@
+LOGIC
+
+User1 DIPAKBHAI2 4 5 2 8
+User2 Harshil7
+
+check DIPAKBHAI2 id in all tables
+father->    9       array 0
+mother->    10       array 1
+son->       1       array 2
+daughter->  4       array 3
+brother->   5       array 4
+sister->    -       array 5
+husband->   -       array 6
+wife->      3       array 7
+
+check if id of User2 is found or not
+    if not then
+store all id in array 9,10,1,4,5,3
+check if first id of array id 9 was searched 
+    if not searched then 
+fisrt id 9 in array is check in all tables 
+father->    -
+mother->    -
+son->       2,5
+daughter->  -
+brother->   -
+sister->    -
+husband->   -
+wife->      10
+
+check if id of User2 is found or not
+    if not then
+store all id in array 2,5,10
+check if first id of array id 2 was searched 
+    if not searched then 
+fisrt id 2 in array is check in all tables 
+    if id 2 was searched before then move to next id
+if next id 5 also searched then move to next
+    if not then search in all tables
+father->    9
+mother->    10
+son->       7
+daughter->  8
+brother->   2
+sister->    -
+husband->   -
+wife->      6
+
+check if id of User2 is found or not
+    if not then
+store all id in array 9,10,7,8,2,6
+yes id 7 in array
+    get table name and colum name where we find id 7 which is son_id
+    get user name of id 7 which is Harshil7 vadgama
+
+    get array element which is used to get son_id 7, which is 5 in array
+    get table name and colum name where we find id 5 which is son_id
+    get user name of id 5 which is Kiritbhai vadgama
+
+    get array element which is used to get son_id5 which is 9 in array
+    get table name and colum name where we find id 9 which is father_id
+    get user name of id 9 which is Dayaljibhai vadgama
+
+    get array element which is used to get father_id which is 2
+    get table name and colum name where we find id 2 which is User1 from input field
+
+    FINAL output :-
+    User1:DIPAKBHAI2 father is Dayaljibhai vadgama father of Kiritbhai vadgama son is Harshil7 vadgama
+    
+
+RELATION TEST DONE:-
+1. Archan vadgama son of dipkbhai vadgama
+2. mansi vadgama daughter of dipkbhai vadgama
+3. harshil vadgama son of kiritbhai vadgama
+4. kinjal vadgama daughter of kiritbhai vadgama
+5. dipakbhai vadgama son of Dayaljibhai vadgama
+6. kiritbhau vadgama son of Dayaljibhai vadgama 
+
+
